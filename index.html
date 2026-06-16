@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Manager</title>
+</head>
+<body>
+
+<h2>Link Manager</h2>
+
+<input
+  type="text"
+  id="urlInput"
+  placeholder="Enter new URL"
+  style="width:300px;"
+>
+
+<button onclick="saveUrl()">
+Update
+</button>
+
+<p id="status"></p>
+
+<script>
+function saveUrl() {
+  document.getElementById('status').innerText =
+  'Dashboard UI working';
+}
+</script>
+
+</body>
+</html>
